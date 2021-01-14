@@ -1,0 +1,121 @@
+// fonts start
+@font-face {
+  font-family: "bold-font";
+  src: url("/font/titrbold/BTitrBold.eot");
+  src: url("/font/titrbold/BTitrBold.eot?#iefix") format("embedded-opentype"),
+    url("/font/titrbold/BTitrBold.woff") format("woff"),
+    url("/font/titrbold/BTitrBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "zar-font";
+  src: url("/font/zar/.eot") format("embedded-opentype");
+  src: url("/font/zar/.eot?#iefix") format("embedded-opentype"),
+    url("/font/zar/.woff") format("woff"),
+    url("/font/zar/.ttf") format("truetype");
+}
+// fonts End
+
+// color variables start
+$main-color: #fddc22;
+$d-main-color: #b89414;
+$secondary-color: #5a18c9;
+$light-color: #dad4f7;
+$bg-color: #e1d4f7;
+$nav-bg-color: #342e09;
+// color variables end
+
+// font variables start
+$bold-font: "bold-font";
+$zar-font: "zar-font";
+// font variables end
+
+// responsive img start
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+// responsive img end
+
+// color classes start
+.main-color {
+  color: $main-color;
+}
+
+.d-main-color {
+  color: $d-main-color;
+}
+
+.secondary-color {
+  color: $secondary-color;
+}
+
+.light-color {
+  color: $light-color;
+}
+
+.bg-color {
+  background-color: $bg-color;
+}
+
+.nav-bg-color {
+  background-color: $nav-bg-color;
+}
+// color classes end
+
+// font classes start
+.bold-font {
+  font-family: $bold-font;
+}
+.zar-font {
+  font-family: $zar-font;
+}
+.english-bold {
+  font-family: "Courgette", cursive;
+}
+// font classes end
+
+// border radious
+
+.border-r {
+  border-radius: 15px;
+}
+
+// border-radious end
+
+// box shadow
+.box-shadow {
+  box-shadow: rgb(109, 105, 105) 5px 5px 4px;
+}
+// box shadow end
+
+.teacher-img {
+  width: 200px;
+  height: 200px;
+}
+
+.teacher-border {
+  border-radius: 50%;
+}
+
+// about us text margin top
+
+.about-us-margine-top {
+  margin-top: 100px;
+}
+
+// custome css start
+
+// main navbar hover
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-navbar-h a:hover {
+  color: $light-color;
+}
+
+// custome css end

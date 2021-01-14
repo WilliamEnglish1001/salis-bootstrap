@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "bold-font";
+  src: url("/font/titrbold/BTitrBold.eot");
+  src: url("/font/titrbold/BTitrBold.eot?#iefix") format("embedded-opentype"), url("/font/titrbold/BTitrBold.woff") format("woff"), url("/font/titrbold/BTitrBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "zar-font";
+  src: url("/font/zar/.eot") format("embedded-opentype");
+  src: url("/font/zar/.eot?#iefix") format("embedded-opentype"), url("/font/zar/.woff") format("woff"), url("/font/zar/.ttf") format("truetype");
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main-color {
+  color: #fddc22;
+}
+
+.d-main-color {
+  color: #b89414;
+}
+
+.secondary-color {
+  color: #5a18c9;
+}
+
+.light-color {
+  color: #dad4f7;
+}
+
+.bg-color {
+  background-color: #e1d4f7;
+}
+
+.nav-bg-color {
+  background-color: #342e09;
+}
+
+.bold-font {
+  font-family: "bold-font";
+}
+
+.zar-font {
+  font-family: "zar-font";
+}
+
+.english-bold {
+  font-family: "Courgette", cursive;
+}
+
+.border-r {
+  border-radius: 15px;
+}
+
+.box-shadow {
+  -webkit-box-shadow: #6d6969 5px 5px 4px;
+          box-shadow: #6d6969 5px 5px 4px;
+}
+
+.teacher-img {
+  width: 200px;
+  height: 200px;
+}
+
+.teacher-border {
+  border-radius: 50%;
+}
+
+.about-us-margine-top {
+  margin-top: 100px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-navbar-h a:hover {
+  color: #dad4f7;
+}
+/*# sourceMappingURL=style.css.map */
